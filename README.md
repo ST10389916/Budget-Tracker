@@ -1,3 +1,9 @@
+# Budget Tracker
+
+Budget Tracker is an Android application developed using Kotlin programming language and applying MVP architecture. 
+It allows users to create multiple wallets, manage receipts and payments, plan spending, and receive notifications 
+when a set consumption is reached.
+
 ### Group Leader:
 - Justice Ngwenya - ST100389916
 
@@ -5,13 +11,6 @@
 - Blessings Manganye – ST10362704
 - Justin Mohale – ST10335113
 - Mpho Ndou – ST10362019.
-
-
-# Budget Tracker
-
-Budget Tracker is an Android application developed using Kotlin programming language and applying MVP architecture. 
-It allows users to create multiple wallets, manage receipts and payments, plan spending, and receive notifications 
-when a set consumption is reached.
 
 ## Features
 
