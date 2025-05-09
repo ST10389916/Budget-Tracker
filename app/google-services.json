@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "582081102033",
+    "firebase_url": "https://budget-tracker-23294-default-rtdb.firebaseio.com",
+    "project_id": "budget-tracker-23294",
+    "storage_bucket": "budget-tracker-23294.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582081102033:android:a534fe6b50368151f005f0",
+        "android_client_info": {
+          "package_name": "com.kindsundev.expense.manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcragBldWISXGKv1RrO9KspG0ZLv9nvPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/item_lend"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/lend">
+
+            <LinearLayout style="@style/LayoutTitleExpenseParents">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/ItemIconExpenseParents"
+                    android:background="@drawable/bg_gray_blue_circle"
+                    android:minWidth="34dp"
+                    android:minHeight="34dp"
+                    android:src="@drawable/ic_attach_email" />
+
+                <TextView
+                    style="@style/ItemTextExpenseParents"
+                    android:text="@string/lend"
+                    android:textColor="@color/gray_blue" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_repayment"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/repayment">
+
+            <LinearLayout style="@style/LayoutTitleExpenseParents">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/ItemIconExpenseParents"
+                    android:background="@drawable/bg_gray_blue_circle"
+                    android:minWidth="34dp"
+                    android:minHeight="34dp"
+                    android:src="@drawable/ic_mark_email_read" />
+
+                <TextView
+                    style="@style/ItemTextExpenseParents"
+                    android:text="@string/repayment"
+                    android:textColor="@color/gray_blue" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_borrow"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/borrow"/>
+
+        <LinearLayout
+            android:id="@+id/item_debt_collection"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/debt_collection"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

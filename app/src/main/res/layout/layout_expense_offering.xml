@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_offering_parent"
+    style="@style/LayoutExpenseBoxItem"
+    android:contentDescription="@string/offering">
+
+    <LinearLayout
+        android:id="@+id/item_offering"
+        style="@style/LayoutTitleExpenseParents">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/ItemIconExpenseParents"
+            android:background="@drawable/bg_purple_circle"
+            android:minWidth="34dp"
+            android:minHeight="34dp"
+            android:src="@drawable/ic_request_quote" />
+
+        <TextView
+            style="@style/ItemTextExpenseParents"
+            android:text="@string/offering"
+            android:textColor="@color/purple_200" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_gift"
+        style="@style/LayoutExpenseItemTop"
+        android:contentDescription="@string/gift">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/ItemIconExpensePurpleColor"
+            android:src="@drawable/ic_gift_card" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/gift"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/item_salary"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/salary">
+
+            <LinearLayout style="@style/LayoutTitleExpenseParents">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/ItemIconExpenseParents"
+                    android:background="@drawable/bg_dark_circle"
+                    android:minWidth="34dp"
+                    android:minHeight="34dp"
+                    android:src="@drawable/ic_event_available" />
+
+                <TextView
+                    style="@style/ItemTextExpenseParents"
+                    android:text="@string/salary"
+                    android:textColor="@color/secondaryDarkColor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_bonus"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/bonus">
+
+            <LinearLayout style="@style/LayoutTitleExpenseParents">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/ItemIconExpenseParents"
+                    android:background="@drawable/bg_dark_circle"
+                    android:minWidth="34dp"
+                    android:minHeight="34dp"
+                    android:src="@drawable/ic_radar" />
+
+                <TextView
+                    style="@style/ItemTextExpenseParents"
+                    android:text="@string/bonus"
+                    android:textColor="@color/secondaryDarkColor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_interest_rate"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/interest_rate"/>
+
+        <LinearLayout
+            android:id="@+id/item_other"
+            style="@style/LayoutExpenseBoxItem"
+            android:contentDescription="@string/other"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
