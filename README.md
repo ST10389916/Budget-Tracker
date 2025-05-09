@@ -40,5 +40,4 @@ when a set consumption is reached.
 - Database: RealtimeDatabase (Firebase)
 - Asynchronous programming: RxJava and Coroutine
 
-## Screenshots
 
