@@ -5,7 +5,8 @@ It allows users to create multiple wallets, manage receipts and payments, plan s
 when a set consumption is reached.
 
 ### URl:
-- https://www.youtube.com/watch?v=HubvtAbseJg
+- Video URL: https://www.youtube.com/watch?v=HubvtAbseJg
+- Source Code URL: https://github.com/ST10389916/Budget-Tracker
 
 ### Group Leader:
 - Justice Ngwenya - ST100389916
