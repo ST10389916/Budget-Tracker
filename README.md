@@ -1,9 +1,10 @@
-Group Leader : Justice Ngwenya - ST100389916
-**Name and student numbers of team:**
-Blessings Manganye – ST10362704
-Justin Mohale – ST10335113
-Mpho Ndou – ST10362019
+### Group Leader:
+- Justice Ngwenya - ST100389916
 
+###  Name and student numbers of team:
+- Blessings Manganye – ST10362704
+- Justin Mohale – ST10335113
+- Mpho Ndou – ST10362019.
 
 
 # Budget Tracker
